@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>eXercitiu 2 - Calculator cu numere</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div class="telefon">
+      <div class="ecran">
+        <div id="rezolvare"></div>
+        <div id="butoane">
+          <div onclick="clicked0()" class="btn gri" id="clear">AC</div>
+          <div onclick="clicked0()" class="btn gri" id="negative">+/-</div>
+          <div onclick="clicked0()" class="btn gri" id="procent">%</div>
+          <div onclick="clicked0()" class="btn porto" id="impartire">/</div>
+          <div data-number="7" onclick="clicked7()" class="btn sobo" id="b7">7</div>
+          <div data-number="8" onclick="clicked8()" class="btn sobo" id="b8">8</div>
+          <div data-number=9"" onclick="clicked9()" class="btn sobo" id="b9">9</div>
+          <div onclick="clicked0()" class="btn porto" id="inmultire">x</div>
+          <div data-number="4" onclick="clicked4()" class="btn sobo" id="b4">4</div>
+          <div data-number="5" onclick="clicked5()" class="btn sobo" id="b5">5</div>
+          <div data-number="6" onclick="clicked6()" class="btn sobo" id="b6">6</div>
+          <div onclick="clicked0()" class="btn porto" id="dif">-</div>
+          <div data-number="1" onclick="clicked1()" class="btn sobo" id="b1">1</div>
+          <div data-number="2" onclick="clicked2()" class="btn sobo" id="b2">2</div>
+          <div data-number="3" onclick="clicked3()" class="btn sobo" id="b3">3</div>
+          <div onclick="clicked0()" class="btn porto" id="suma">+</div>
+          <div data-value="0" onclick="clicked0()" class="btn sobo" id="b0">0</div>
+          <div onclick="clicked0()" class="btn sobo" id="punct">.</div>
+          <div onclick="clicked0()" class="btn porto" id="rezultat">=</div>
+        </div>
+      </div>
+    </div>
+
+    <script src="/script.js"></script>
+  </body>
+</html>
